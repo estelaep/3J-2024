@@ -1,0 +1,14 @@
+:root{
+    --cor-de-fundo:#0000;
+    --verde:#5FFF57;
+    --branco:#FFFFFF;
+    --botao-ativo:#3a357e;
+    --botao-inativo:#rgb(58,55,94,0.5);
+    --texto-fundo:#rgb(58,55,94,0.3);
+}
+
+*{
+    background-color: crimson;
+    color: #FFFFFF;
+
+}
