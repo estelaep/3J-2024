@@ -2,9 +2,9 @@
     --cor-de-fundo:#1e1e1e;
     --verde:#5FFF57;
     --branco:#FFFFFF;
-    --botao-ativo:#3A375E;
+    --botao-ativo:#22cabc;
     --botao-inativo: rgba(58,55,94,0.5);
-    --texto-fundo: rgba(58,55,94,0.3); 
+    --texto-fundo: rgba(118, 175, 194, 0.3); 
 }
 
 *{
@@ -15,7 +15,7 @@
 .conteudo-principal{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;        
     align-items: center;
     max-width: 1200px;
     width: 100%;
