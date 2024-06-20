@@ -6,8 +6,15 @@ const tempoObjetivo1 = new Date(2025, 03, 15, 15, 0);
 const tempoObjetivo2 = new Date(2027, 11, 29, 23, 0);
 const tempoObjetivo3 = new Date(2025, 11, 18, 30, 0);
 const tempoObjetivo4 = new Date(2027, 06, 04, 17, 20);
-const agora = new Date();
-TEMPO[1].textContent = agora
+const agora=new Date()
+let  segundo;
+let minuto;
+let horas;
+let dias;
+segundo(tempoObjetivo1-agora)/1000;
+tempo[0].textContent=tempoObjetivo1-agora
+tempo[1].textContent = agora
+console.log(tempo);
 for(let i = 0; 1 < botoes.length ; i++){
     botoes[i].onclick = function() {
         for (j=0;j<botoes.length;j++){
